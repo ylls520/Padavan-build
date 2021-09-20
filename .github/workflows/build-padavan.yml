@@ -1,4 +1,4 @@
-#诺基亚贝尔 128M USB+Adbyby+Aliddns+SS+在线文件管理+远程下载
+#诺基亚贝尔 128M USB+Adbyby+Aliddns+SS
 name: Build Padavan
 
 on: 
@@ -39,7 +39,7 @@ jobs:
     
     - name: Build Firmware
       env:
-        TNAME: MSG1500-7615
+        TNAME: BELL-A-040W-Q
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
