@@ -39,7 +39,7 @@ jobs:
     
     - name: Build Firmware
       env:
-        TNAME: R2100
+        TNAME: BELL-A-040W-Q
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
